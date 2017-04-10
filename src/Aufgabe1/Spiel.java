@@ -7,21 +7,19 @@ package Aufgabe1;
 public class Spiel {
 
     int siegPunkte;
-    Spieler [] anzSpieler;
+    Spieler [] spieler;
 
 
-    public Spiel (int siegPunkte, int anzSpieler){
+    public Spiel (int siegPunkte, Spieler anzSpieler){
 
         this.siegPunkte=siegPunkte;
-        this.anzSpieler =anzSpieler;
+        this.spieler = spieler[anzSpieler];
     }
 
 
-    public static void siegPunkte (int n){
-        int siegPunkte = siegPunkte (n);
-    }
 
-    public void spielen(){
+
+     void spielen(){
 
     }
 
