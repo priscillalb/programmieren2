@@ -8,15 +8,9 @@ import java.util.Arrays;
  */
 public class Spieler {
 
-    public static void main(String[] args) {
-        Random r = new Random();
-
-    }
-
     private String name;
     private int aktStand=0;
     private Random r;
-
 
 
     public Spieler(String name){
@@ -25,8 +19,14 @@ public class Spieler {
     }
 
 
-    boolean wuerfeln (){
+    public boolean wuerfeln(){
 
+        if (a==30){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
 
