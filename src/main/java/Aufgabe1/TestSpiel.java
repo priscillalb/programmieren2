@@ -10,14 +10,8 @@ public class TestSpiel {
 
     public static void main(String[] args) {
 
-     int a = 0;
-     int b = 0;
-     Random r = new Random();
-     while (a <= b){
-         a = r.nextInt(6)+1;
-         b = r.nextInt(6)+1;
+        System.out.println("TEsta");
 
-     }
 
     }
 }

@@ -19,16 +19,10 @@ public class Spieler {
     }
 
 
-    public boolean wuerfeln(){
+    public void wuerfeln(){
 
-        if (a==30){
-            return true;
-        }
-        else{
-            return false;
-        }
+        int zufallszahl;
+        zufallszahl=(int)(Math.random()*6);
+        System.out.println(zufallszahl);
     }
-
-
-
 }
